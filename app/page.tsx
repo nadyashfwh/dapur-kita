@@ -19,7 +19,6 @@ import {
 import { products, categories, type Product } from '@/lib/products';
 import { rupiah } from '@/lib/utils';
 
-export { products, categories, type Product };
 
 export default function Home() {
   const router = useRouter();
